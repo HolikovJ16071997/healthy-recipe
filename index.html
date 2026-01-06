@@ -1,16 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Recipes</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon/favicon-32x32.png">
+
 </head>
-       
+
 <body>
-   <script src="js/main.js"></script>
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="site-header-container">
+      <a href="index.html" class="logo site-header-logo">
+        <img src="images/logo.svg" alt="Logo Image" class="logo-img">
+      </a>
+
+      <nav class="sitenav site-header-sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a href="index.html" class="sitenav-link">Home</a></li>
+          <li class="sitenav-item"><a href="about.html" class="sitenav-link">About</a></li>
+          <li class="sitenav-item"><a href="recipes.html" class="sitenav-link">Recipes</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header-actions">
+        <a href="#" class="main-link">Browse Recipes</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="main">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="highlight">Healthy </span> meals, zero fuss
+          </h1>
+          <p class="hero-text">
+            Discover eight quick, whole-food recipes that you can cook tonight <br> — no processed junk, no guesswork.
+          </p>
+          <a href="#" class="main-link">Start exploring</a>
+        </div>
+        <div class="hero-image">
+          <img class="hero-img" src="images/desktop/image-home-hero-large.jpg"
+            alt="A woman cooking meal with vegetables" width="1192" height="530">
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- Benefits -->
+      <section class="benefits">
+
+        <h2 class="benefits-title">What you'll get</h2>
+        <ul class="benefits-list">
+
+          <li class="benefits-item benefits-card">
+            <span class="benefits-card-icon">
+              <img src="images/icon-whole-food-recipes.svg" alt="" width="23" height="33">
+            </span>
+            <h3 class="benefits-card-title">Whole-food recipes</h3>
+            <p class="benefits-card-text">Each dish uses everyday, unprocessed ingredients.</p>
+          </li>
+
+          <li class="benefits-item benefits-card">
+            <span class="benefits-card-icon">
+              <img src="images/icon-minimum-fuss.svg" alt="" width="40" height="41">
+            </span>
+            <h3 class="benefits-card-title">Minimum fuss</h3>
+            <p class="benefits-card-text">All recipes are designed to make eating healthy quick and easy.</p>
+          </li>
+
+          <li class="benefits-item benefits-card">
+            <span class="benefits-card-icon">
+              <img src="images/icon-search-in-seconds.svg" alt="" width="40" height="40">
+            </span>
+            <h3 class="benefits-card-title">Search in seconds</h3>
+            <p class="benefits-card-text">Filter by name or ingredient and jump straight to the recipe you need.</p>
+          </li>
+
+        </ul>
+      </section>
+
+      <!-- Advice -->
+      <section class="advice">
+        <div class="advice-content">
+          <h3 class="advice-title">Built for real life</h3>
+          <p class="advice-text">
+            Cooking shouldn’t be complicated. These recipes come in under <span class="highlight">30 minutes</span> of
+            active time, fit busy schedules, and taste good enough to repeat.
+          </p>
+          <p class="advice-text">Whether you’re new to the kitchen or just need fresh ideas, we’ve got you covered.</p>
+        </div>
+        <div class="advice-image">
+          <img src="images/desktop/image-home-real-life-large.jpg" alt="A woman cutting greens with knife" width="635"
+            height="450">
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+        <h2 class="cta-heading">Ready to cook smarter?</h2>
+        <p class="cta-text">Hit the button, pick a recipe, and get dinner on the table - fast.</p>
+        <a href="#" class="main-link">Browse recipes</a>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-text">Made with ❤️ and 🥑</p>
+      <ul class="footer-socials-list">
+        <li class="footer-socials-item">
+          <a href="#" class="footer-socials-link">
+            <img src="images/icon-instagram.svg" alt="" width="22" height="22">
+          </a>
+        </li>
+
+        <li class="footer-socials-item">
+          <a href="#" class="footer-socials-link">
+            <img src="images/icon-bluesky.svg" alt="" width="25" height="22">
+          </a>
+        </li>
+
+        <li class="footer-socials-item">
+          <a href="#" class="footer-socials-link">
+            <img src="images/icon-tiktok.svg" alt="" width="19.5" height="22">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
